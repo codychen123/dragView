@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'myDragView_Example' do
+  pod 'myDragView', :path => '../'
+
+  target 'myDragView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
